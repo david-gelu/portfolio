@@ -467,13 +467,14 @@ main{
 		z-index: 1;
 		display: flex;
 		align-items: center;
+		justify-content: space-around;
 		text-align: center;
 		padding: .5rem 1rem;
 		color: var(--text-color);
 	}
 
 	.projects__btn {
-		position: absolute;
+		/* position: absolute; */
 		color: #b37c57;
 		opacity: 0;
 		top: 0;
