@@ -499,20 +499,25 @@ main {
 	color: var(--text-color);
 	border-radius: 1.11rem;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
+	align-items: flex-start;
+	flex-direction: column;
 	margin: 0 auto;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
+.contact h2 {
+	margin-inline: auto;
+	text-align: center;
+}
 .contact-form {
 	color: var(--text-color);
-	padding: 0.01rem 0.5rem;
+	padding: 0.01rem 3rem;
+	text-align: start;
 }
 .contact-form a {
 	color: var(--link-color);
 }
+
 .contact-info {
 	color: var(--text-color);
 	font-weight: 600;
